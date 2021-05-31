@@ -21,7 +21,7 @@ body{
     min-width: 960px;
 }
 .wrap_header{
-    width: 930px;
+    width: fit-content;
     margin: 0 auto;
     font-size: 0;
     padding: 10px;
@@ -38,7 +38,7 @@ h1{
     color:#DCDCDC;
     font-family: sans-serif;
     letter-spacing: 3px;
-    padding-right: 65px;
+    margin-right: 65px;
     vertical-align: middle;
 }
 nav{
@@ -88,19 +88,23 @@ nav a+a{
     font-weight: bold;
     word-spacing: 10px;
 }
-.button{
+/* .button{
     margin-top: 30px;
-}
-.button a{
+} */
+
+.button button{
     background-color: black;
-    padding: 8px 60px;
-    border: none;
-    color:#fff;
+    width: 215px;
+    height: 38px;
+    color:white;
     font-size: 20px;
+    border-style: none;
+    }
+.button{
+    padding-top: 8px;
 }
-.button a:hover{
-    background-color:#DCDCDC ;
-    border: 1px solid black;
+.button button:active { 
+    background-color: gainsboro;
     color:black;
 }
 /* section2 */
@@ -137,6 +141,7 @@ nav a+a{
 .wrap_product{
     margin: 0 auto;
     text-align: center;
+    font-size: ;
 }
 .wrap_img{
     display: inline-block;
@@ -158,7 +163,7 @@ footer{
     font-family: sans-serif;
 }
 .wrap_footer{
-    width: 870px;
+    width: fit-content;
     margin: 0 auto;
     font-size: 0px;
 }
@@ -180,7 +185,7 @@ footer{
     color:#6495ED;
 }
 .footer_social a+a{
-    padding-left: 10px;
+    margin-left: 10px;
 }
 .footer_social i{
     font-size: 24px;
@@ -203,12 +208,7 @@ footer{
     border-color: #DCDCDC;
     margin-bottom:5px;
 }
-.footer_email button{
-    font-size: 14px;
-    background-color: grey;
-    padding: 10px;
-    /* border: 0px; */
-}
+
 .email input{
     color:#DCDCDC;
 }
@@ -218,11 +218,15 @@ footer{
     padding-bottom: 10px;
 }
 .wrap_footer div+div{
-    padding-left: 135px;
+    margin-left: 135px;
 }
-.input button{
+.email_button_block button{
+    font-size: 14px;
+    background-color:#DCDCDC;
     display: block;
     margin-left: auto;
+    width: 87px;
+    height: 30px;
 }
 
 .copyright{
