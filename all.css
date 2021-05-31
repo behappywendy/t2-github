@@ -6,9 +6,10 @@
     left: 0;
     opacity: 0.5;
 }
-*{
+/* *{
     outline: 1px solid red;
-}
+} */
+
 /*css reset */
 *{
     padding:0 ;
