@@ -6,9 +6,9 @@
     left: 0;
     opacity: 0.5;
 }
-/* *{
+*{
     outline: 1px solid red;
-} */
+}
 
 /*css reset */
 *{
@@ -24,13 +24,13 @@ body{
     width: fit-content;
     margin: 0 auto;
     font-size: 0;
-    padding: 10px;
+
 }
 header{
     background-color: #585555;
     width: 100%;
     padding-top: 18px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 h1{
     display: inline-block;
@@ -61,6 +61,7 @@ nav a+a{
     display: inline-block;
     width: 30px;
     float: right;
+    margin-left: 50px;
 }
 .shopping_cart img{
     width: 100%;
@@ -101,7 +102,7 @@ nav a+a{
     border-style: none;
     }
 .button{
-    padding-top: 8px;
+    padding-top: 20px;
 }
 .button button:active { 
     background-color: gainsboro;
