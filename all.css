@@ -81,7 +81,7 @@ nav a+a{
     width: 550px;
     height: 150px;
     /* text-align: center; */
-    /* padding-top: 26px; */
+    padding-top: 26px;
     margin: 0 auto;
     background-color: rgba(250,250,250,0.6);
 }
@@ -121,14 +121,13 @@ nav a+a{
     background-color: #DCDCDC;
 }
 .product{
-    padding: 60px 0px;
+    padding: 20px 0px;
 }
 .product h2{
     text-align: center;
     font-size: 40px;
     letter-spacing: 10px;
     /* background-color: coral; */
-    text-align: center;
     margin: 20px 0;
 }
 .product hr{
@@ -146,8 +145,10 @@ nav a+a{
     /* background-color: cornflowerblue; */
 }
 .wrap_product{
+    /* background-color: darkgoldenrod; */
+    width: fit-content;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
 }
 .wrap_img{
     display: inline-block;
